@@ -182,24 +182,24 @@ three-stage topology-preserving pipeline.
 
 ---
 
-## Citation
+### Citation
 
 If you use geopoly-simplify in your research, please cite:
 
 ### APA
 
-Joshi, R. (2025). *geopoly-simplify: Topology-preserving simplification of geological map
-vector data* (Version 1.0.0) [Software]. Zenodo.
+Joshi, R., Jessell, M., & Lindsay, M. (2025). *geopoly-simplify: Topology-preserving
+simplification of geological map vector data* (Version 1.0.0) [Software]. Zenodo.
 https://doi.org/10.5281/zenodo.20271988
 
 ### BibTeX
 
 ```bibtex
 @software{joshi2025geopolysimplify,
-  author    = {Joshi, Ranee},
+  author    = {Joshi, Ranee and Jessell, Mark and Lindsay, Mark},
   title     = {{geopoly-simplify}: Topology-Preserving Simplification of
                Geological Map Vector Data},
-  year      = {2026},
+  year      = {2025},
   version   = {1.0.0},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20271988},
