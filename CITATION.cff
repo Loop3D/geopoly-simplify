@@ -12,7 +12,7 @@ date-released: "2025-09-25"
 version: "1.0.0"
 license: MIT
 
-repository-code: "https://github.com/[USERNAME]/geopoly-simplify"
+repository-code: "https://github.com/Loop3D/geopoly-simplify"
 
 abstract: >
   geopoly-simplify is a Python tool for topology-preserving simplification of geological
