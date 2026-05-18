@@ -7,8 +7,12 @@ authors:
   - family-names: "Joshi"
     given-names: "Ranee"
     email: "raneejoshi@gmail.com"
+  - family-names: "Jessell"
+    given-names: "Mark"
+  - family-names: "Lindsay"
+    given-names: "Mark"
 
-date-released: "2025-09-25"
+date-released: "2026-05-18"
 version: "1.0.0"
 license: MIT
 
