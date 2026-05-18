@@ -1,0 +1,66 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+
+title: "geopoly-simplify: Topology-Preserving Simplification of Geological Map Vector Data"
+
+authors:
+  - family-names: "Joshi"
+    given-names: "Ranee"
+    email: "raneejoshi@gmail.com"
+
+date-released: "2025-09-25"
+version: "1.0.0"
+license: MIT
+
+repository-code: "https://github.com/[USERNAME]/geopoly-simplify"
+
+abstract: >
+  geopoly-simplify is a Python tool for topology-preserving simplification of geological
+  map polygon and fault-line shapefiles. It implements a Modified Visvalingam-Whyatt
+  (MVW) algorithm within a three-stage pipeline: topology pre-processing (coordinate
+  snapping, overlap and gap correction, fault-polygon vertex alignment), fault network
+  simplification with polygon-boundary pinning, and polygon simplification with junction
+  pinning, geological contact preservation, and thin-body collapse prevention.
+  The tool produces gap-free, overlap-free outputs in which fault lines remain aligned
+  with polygon boundaries across all target scales.
+
+keywords:
+  - geological map
+  - polygon simplification
+  - topology preservation
+  - Visvalingam-Whyatt
+  - fault network
+  - GIS
+
+references:
+  - type: article
+    title: "Line generalisation by repeated elimination of points"
+    authors:
+      - family-names: "Visvalingam"
+        given-names: "M."
+      - family-names: "Whyatt"
+        given-names: "J. D."
+    journal: "The Cartographic Journal"
+    volume: 30
+    issue: 1
+    start: 46
+    end: 51
+    year: 1992
+    doi: "10.1179/000870493786962263"
+
+  - type: article
+    title: >
+      Algorithms for the reduction of the number of points required to represent
+      a digitized line or its caricature
+    authors:
+      - family-names: "Douglas"
+        given-names: "D. H."
+      - family-names: "Peucker"
+        given-names: "T. K."
+    journal: "The Canadian Cartographer"
+    volume: 10
+    issue: 2
+    start: 112
+    end: 122
+    year: 1973
+    doi: "10.3138/FM57-6770-U75U-7727"

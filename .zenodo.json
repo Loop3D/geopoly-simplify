@@ -1,0 +1,31 @@
+{
+  "upload_type": "software",
+  "title": "geopoly-simplify: Topology-Preserving Simplification of Geological Map Vector Data",
+  "creators": [
+    {
+      "name": "Joshi, Ranee",
+      "affiliation": ""
+    }
+  ],
+  "description": "geopoly-simplify is a Python tool for topology-preserving simplification of geological map polygon and fault-line shapefiles at multiple target scales. It implements a Modified Visvalingam-Whyatt algorithm within a three-stage pipeline: topology pre-processing (coordinate snapping, hairline overlap and gap correction, bidirectional fault-polygon vertex alignment), fault network simplification with polygon-boundary vertex pinning, and polygon simplification with junction pinning, unique geological contact preservation, and thin-body collapse prevention. Outputs are gap-free and overlap-free, with fault lines remaining aligned with polygon boundaries. Developed and tested on the GSWA Ninghan 1:500 000 and GSSA Flinders Ranges geological datasets.",
+  "keywords": [
+    "geological map simplification",
+    "polygon simplification",
+    "topology preservation",
+    "Visvalingam-Whyatt",
+    "fault network",
+    "GIS",
+    "Python",
+    "geospatial"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "scheme": "doi",
+      "identifier": "10.1179/000870493786962263",
+      "relation": "isCitedBy",
+      "resource_type": "publication-article"
+    }
+  ]
+}
