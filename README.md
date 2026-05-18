@@ -200,11 +200,11 @@ https://doi.org/10.5281/zenodo.XXXXXXX
   author    = {Joshi, Ranee},
   title     = {{geopoly-simplify}: Topology-Preserving Simplification of
                Geological Map Vector Data},
-  year      = {2025},
+  year      = {2026},
   version   = {1.0.0},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX},
-  url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi       = {10.5281/zenodo.20271988},
+  url       = {https://doi.org/10.5281/zenodo.20271988}
 }
 ```
 
