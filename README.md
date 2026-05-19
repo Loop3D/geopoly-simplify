@@ -69,7 +69,7 @@ result = vector_simplify_file_two_stage(
     input_file  = "geology_polygons.shp",
     output_file = "geology_polygons_simplified.shp",
     method      = "modified_visvalingam_whyatt",
-    threshold   = 50_000,        # area threshold in m²
+    threshold   = 50000,        # area threshold in m²
 )
 
 print(f"Features processed : {result['features_processed']}")
@@ -89,7 +89,7 @@ result_500k = vector_simplify_file_two_stage(
     input_file        = "geology_polygons.shp",
     output_file       = "geology_500k.shp",
     method            = "modified_visvalingam_whyatt",
-    threshold         = 500_000,          # 500 000 m² area threshold
+    threshold         = 500000,          # 500 000 m² area threshold
     fault_file        = "faults.shp",     # fault network aligned with polygons
     boundary_preserve = "hard",           # pin exterior boundary vertices
     unit_field        = "CODE",           # geological unit identifier field
@@ -102,7 +102,7 @@ result_2m = vector_simplify_file_two_stage(
     input_file        = "geology_polygons.shp",
     output_file       = "geology_2m.shp",
     method            = "modified_visvalingam_whyatt",
-    threshold         = 2_000_000,        # 2 000 000 m² area threshold
+    threshold         = 2000000,        # 2 000 000 m² area threshold
     fault_file        = "faults.shp",
     boundary_preserve = "soft",           # allow exterior vertices to be removed
     unit_field        = "CODE",
