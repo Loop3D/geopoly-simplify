@@ -28,12 +28,4 @@
   ],
   "license": "MIT",
   "version": "1.0.0",
-  "related_identifiers": [
-    {
-      "scheme": "doi",
-      "identifier": "10.1179/000870493786962263",
-      "relation": "isCitedBy",
-      "resource_type": "publication-article"
-    }
-  ]
 }
