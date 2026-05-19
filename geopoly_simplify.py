@@ -3412,7 +3412,7 @@ if __name__ == '__main__':
         input_file        = INPUT_POLY,
         output_file       = os.path.join(OUTPUT_DIR, 'geology_2M.shp'),
         method            = 'modified_visvalingam_whyatt',
-        threshold         = 2_000_000,          # m² — suitable for 1 : 2 000 000
+        threshold         = 2000000,          # m² — suitable for 1 : 2 000 000
         fault_file        = INPUT_FAULT,
         boundary_preserve = 'hard',             # pin exterior boundary vertices
         preprocess        = True,               # run Stage 0 topology fix
@@ -3436,7 +3436,7 @@ if __name__ == '__main__':
         input_file        = INPUT_POLY,
         output_file       = os.path.join(OUTPUT_DIR, 'geology_500k.shp'),
         method            = 'modified_visvalingam_whyatt',
-        threshold         = 500_000,            # m² — suitable for 1 : 500 000
+        threshold         = 500000,            # m² — suitable for 1 : 500 000
         fault_file        = None,               # omit to skip Stage 1
         boundary_preserve = 'hard',
         preprocess        = True,
